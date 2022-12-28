@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "baseUrl": "./src",
+    "paths": {
+      "src/*": ["src/*"],
+      "tests/*": ["./tests/*"]
+    }
+  },
+  "exclude": ["node_modues", "dist", "build", "publish"]
+}
